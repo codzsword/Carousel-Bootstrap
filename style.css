@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Carousel Caption */
+
+.carousel-caption {
+    bottom: 50%;
+    transform: translate(0, 50%);
+}
+
+.carousel-caption h5 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* Responsive */
+
+@media (min-width: 992px) {
+
+    .carousel-caption h5 {
+        font-size: 4rem;
+    }
+}
